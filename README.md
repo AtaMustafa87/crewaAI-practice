@@ -23,3 +23,16 @@ A crew in crewAI represents a collaborative group of agents working together to 
 * Different ways to kickoff crew, simple kickoff, kickoff_for_each, kickoff_async, and kickoff_for_each_async.
 * Replaying a specific task using cli _crewai log-tasks-outputs_ then _crewai replay -t <task_id>_
 
+# Agent
+* An agent:
+  * Perform specific tasks
+  * Make decisions based on its role and goal
+  * Use tools to accomplish objectives
+  * Communicate and collaborate with other agents
+  * Maintain memory of interactions
+  * Delegate tasks when allowed
+* Like Crew, there are two ways to create agent using YAML or using code
+* Agent tools, CrewAI toolkit and LangChain toolkit
+* Agent can have memory and context stored for later use
+
+* 
