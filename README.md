@@ -14,3 +14,12 @@ Crew AI Projects
 * To add crew to flow _crewai create flow name_of_flow_
 * You may plot flows using _flow.plot_ function or using _crewai flow plot_
   
+# Crew
+A crew in crewAI represents a collaborative group of agents working together to achieve a set of tasks. Each crew defines the strategy for task execution, agent collaboration, and the overall workflow.
+* Create crew using YAML file or using code
+* Output of crew is encapsulated in _CrewOutput_, it can be retrieved in the form of raw string, dictionary or json
+* Memory utilization, Cache Utilization, Crew Usage metrics
+* Crew execution processes, Sequential and Hierarchical
+* Different ways to kickoff crew, simple kickoff, kickoff_for_each, kickoff_async, and kickoff_for_each_async.
+* Replaying a specific task using cli _crewai log-tasks-outputs_ then _crewai replay -t <task_id>_
+
