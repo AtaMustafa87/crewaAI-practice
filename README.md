@@ -31,6 +31,14 @@ A crew in crewAI represents a collaborative group of agents working together to 
   * Communicate and collaborate with other agents
   * Maintain memory of interactions
   * Delegate tasks when allowed
+
+# Task
+In the CrewAI framework, a Task is a specific assignment completed by an Agent.
+
+Tasks provide all necessary details for execution, such as a description, the agent responsible, required tools, and more, facilitating a wide range of action complexities.
+
+Tasks within CrewAI can be collaborative, requiring multiple agents to work together. This is managed through the task properties and orchestrated by the Crew’s process, enhancing teamwork and efficiency.
+
 * Like Crew, there are two ways to create agent using YAML or using code
 * Agent tools, CrewAI toolkit and LangChain toolkit
 * Agent can have memory and context stored for later use
